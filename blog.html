@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화곡 셔츠룸 블로그 | 마포 성우이벤트 찐후기</title>
+    <meta name="description" content="마포 성우이벤트 전문, 화곡 셔츠룸에서 특별한 밤을 경험하세요. 010-6279-0862로 지금 전화주세요. 친근한 분위기, 확실한 서비스.">
+    <meta name="keywords" content="화곡 셔츠룸, 마포 성우이벤트, 화곡 셔츠룸 추천, 마포 셔츠룸, 성우이벤트, 화곡 유흥, 마포 유흥">
+    <link rel="canonical" href="https://sf-t3-1779642675702-044.vercel.app/">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <!-- OG 메타 -->
+    <meta property="og:title" content="화곡 셔츠룸 블로그 | 마포 성우이벤트 No.1">
+    <meta property="og:description" content="마포 성우이벤트 전문, 화곡 셔츠룸에서 특별한 밤을 경험하세요. 010-6279-0862로 지금 전화주세요. 친근한 분위기, 확실한 서비스.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-044.vercel.app/blog">
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            font-family: 'Courier New', Courier, 'Noto Sans KR', monospace;
+            background: #e6e2dd;
+            color: #1a1a1a;
+            line-height: 1.5;
+            padding: 0 1rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        /* ===== TYPOGRAPHY ===== */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            border-left: 8px solid #b34a4a;
+            padding-left: 0.75rem;
+            margin: 1.5rem 0 1rem;
+        }
+        h1 {
+            font-size: 2.4rem;
+            line-height: 1.1;
+            border-left-width: 12px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            border-left-width: 10px;
+        }
+        h3 {
+            font-size: 1.4rem;
+            border-left-width: 8px;
+        }
+        p {
+            margin: 1rem 0;
+            font-size: 1rem;
+            word-break: break-word;
+        }
+        a {
+            color: #1a1a1a;
+            text-decoration: underline wavy #b34a4a 2px;
+            transition: all 0.2s ease;
+        }
+        a:hover {
+            background: #b34a4a;
+            color: #f0ede8;
+            text-decoration: none;
+        }
+        /* ===== LAYOUT ===== */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1rem 0 3rem;
+            flex: 1;
+        }
+        section {
+            margin: 2rem 0;
+            padding: 1rem 0;
+            border-top: 4px double #1a1a1a;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.2rem;
+        }
+        /* ===== NAV (present) ===== */
+        nav.nav-present {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 0;
+            border-bottom: 4px solid #1a1a1a;
+            margin-bottom: 1rem;
+            background: #e6e2dd;
+        }
+        .nav-present .logo a {
+            font-weight: 900;
+            font-size: 1.7rem;
+            text-decoration: none;
+            border: 3px solid #1a1a1a;
+            padding: 0.2rem 0.8rem;
+            background: #fff;
+            text-transform: uppercase;
+        }
+        .nav-present .logo a:hover {
+            background: #b34a4a;
+            color: #fff;
+        }
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .nav-links a {
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            padding: 0.2rem 0;
+            font-size: 1.05rem;
+        }
+        .nav-links a:hover {
+            border-bottom-color: #b34a4a;
+            background: transparent;
+            color: #b34a4a;
+        }
+        /* hamburger-menu (모바일 대응) */
+        .hamburger-menu {
+            display: none;
+            background: none;
+            border: 2px solid #1a1a1a;
+            padding: 0.4rem 0.6rem;
+            font-size: 1.8rem;
+            cursor: pointer;
+            line-height: 1;
+        }
+        /* responsive-768 */
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: block;
+            }
+            .nav-links {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1rem 0;
+                gap: 0.8rem;
+            }
+            .nav-links.open {
+                display: flex;
+            }
+            .grid-2, .grid-3 {
+                grid-template-columns: 1fr;
+            }
+            h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.5rem; }
+        }
+        /* tel-link */
+        .tel-link {
+            display: inline-block;
+            background: #1a1a1a;
+            color: #f0ede8;
+            padding: 0.5rem 1.2rem;
+            font-weight: 700;
+            font-size: 1.3rem;
+            text-decoration: none;
+            border: 3px solid #1a1a1a;
+            transition: 0.15s;
+            margin: 0.5rem 0;
+        }
+        .tel-link:hover {
+            background: #b34a4a;
+            border-color: #b34a4a;
+            color: #fff;
+            text-decoration: none;
+        }
+        /* 추가 카드/블로그 스타일 (동일 디자인 시스템) */
+        .blog-card {
+            background: #f5f2ed;
+            border: 3px solid #1a1a1a;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: 8px 8px 0 #1a1a1a;
+        }
+        .blog-card h3 {
+            border-left-color: #b34a4a;
+            margin-top: 0;
+        }
+        .blog-meta {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            border-bottom: 2px dashed #1a1a1a;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .cta-block {
+            background: #d6d0c8;
+            padding: 1.5rem;
+            border-left: 12px solid #b34a4a;
+            margin: 2rem 0;
+        }
+        footer {
+            border-top: 4px solid #1a1a1a;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- nav-present, hamburger-menu 포함 -->
+        <nav class="nav-present">
+            <div class="logo">
+                <a href="/">화곡셔츠룸</a>
+            </div>
+            <button class="hamburger-menu" id="hamburgerBtn" aria-label="메뉴 열기">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="/">홈</a>
+                <a href="/blog">블로그</a>
+                <a href="/about">소개</a>
+                <a href="/contact">연락처</a>
+                <a href="tel:01062790862" class="tel-link" style="background:#b34a4a; border-color:#b34a4a; color:#fff; padding:0.2rem 1rem;">010-6279-0862</a>
+            </div>
+        </nav>
+
+        <!-- 블로그 페이지 콘텐츠 (정보성 글 1편) -->
+        <section>
+            <h1>🍻 화곡 셔츠룸에서 마포 성우이벤트 찐으로 즐기는 법</h1>
+            <p><strong>형, 안녕? 오늘은 내가 직접 경험한 화곡 셔츠룸 이야기 해볼게.</strong> 마포 쪽에서 성우이벤트로 유명한 곳이 몇 군데 있는데, 진짜 '아, 여기구나' 싶은 곳이 <strong>화곡 셔츠룸</strong>이야. 친구 따라 갔다가 내가 단골 된 썰 푼다.</p>
+        </section>
+
+        <!-- 블로그 카드 (메인 글) -->
+        <div class="blog-card">
+            <div class="blog-meta">📅 2025.04.08 | ✍️ by 화곡입문자 | 🏷️ 성우이벤트, 셔츠룸, 마포</div>
+            <h3>👕 셔츠 하나로 분위기 확 바뀌는 이유</h3>
+            <p>솔직히 처음엔 "셔츠룸? 그냥 술 마시는 거 아냐?" 생각했거든. 근데 화곡 셔츠룸은 <strong>마포 성우이벤트</strong> 컨셉으로 진행되는데, 입장하자마자 분위기가 확 살아. 직원분들이 정장 셔츠 입고 나오는데, 격식 있으면서도 편하게 대해줘. 나처럼 첫 방문이면 더 친절하게 설명해주고, 이것저것 추천도 해줘. </p>
+            <p>무슨 이벤트냐고? <strong>성우이벤트</strong>는 말 그대로 성우처럼 목소리 톤, 진행, 분위기 메이킹을 전문적으로 해주는 시스템이야. 그래서 지루할 틈이 없어. 나도 처음에 긴장했는데, 금방 웃음 바다가 됐음. ㅋㅋㅋ</p>
+            <p>특히 <strong>화곡 셔츠룸 추천</strong> 포인트는 <strong>프라이빗한 공간</strong>이면서도 소란스럽지 않다는 거. 마포 셔츠룸 중에서도 이 정도 서비스는 진짜 몇 군데 없어. 친구들끼리 와도 좋고, 비즈니스 미팅? 아니야 그냥 즐기러 오는 거지. 😎</p>
+            <div style="background:#1a1a1a; color:#f0ede8; padding:0.8rem; margin:1rem 0; border-left: 12px solid #b34a4a;">
+                <p style="margin:0; font-weight:700;">✔️ 내가 느낀 장점 세 가지:</p>
+                <ul style="margin:0.5rem 0 0 1.2rem;">
+                    <li>성우이벤트가 진짜 자연스럽고 재밌음 (어색 제로)</li>
+                    <li>셔츠룸인데도 가격이 합리적 (마포 물가 생각하면 괜찮음)</li>
+                    <li>직원 분위기가 확실히 다름 (친근한 bro 스타일)</li>
+                </ul>
+            </div>
+            <p>그리고 결정적으로 <strong>전화 한 통이면 바로 예약 가능</strong>해. 번호는 010-6279-0862. 나도 처음에 망설였는데, 전화하니까 친절하게 안내해주더라. 지금 생각하면 왜 진작 안 갔나 싶어.</p>
+            <a href="tel:01062790862" class="tel-link">📞 010-6279-0862 지금 전화</a>
+        </div>
+
+        <!-- 추가 정보성 블록 (FAQ 느낌, 친근하게) -->
+        <section>
+            <h2>🤔 화곡 셔츠룸, 궁금한 점? 다 물어봐</h2>
+            <div class="grid-2">
+                <div style="background:#fff; border:3px solid #1a1a1a; padding:1rem;">
+                    <h3>❓ 처음 가도 돼?</h3>
+                    <p>당연하지! 오히려 첫 방문이면 더 신경 써줘. 성우이벤트는 초보도 편하게 즐길 수 있게 도와줘. 나도 첫 방문이었고, 지금은 셔츠룸 마스터? ㅋㅋ</p>
+                </div>
+                <div style="background:#fff; border:3px solid #1a1a1a; padding:1rem;">
+                    <h3>❓ 가격대는?</h3>
+                    <p>마포 성우이벤트 평균 수준이야. 근데 서비스 퀄리티 생각하면 완전 가성비. 전화해서 물어보면 자세히 알려줘 (010-6279-0862).</p>
+                </div>
+                <div style="background:#fff; border:3px solid #1a1a1a; padding:1rem;">
+                    <h3>❓ 몇 명이 가기 좋아?</h3>
+                    <p>2~4명이 딱 좋아. 물론 더 와도 돼. 단체도 환영이야. 나는 주로 3명이서 가는데, 각자 다른 매력을 느낄 수 있어.</p>
+                </div>
+                <div style="background:#fff; border:3px solid #1a1a1a; padding:1rem;">
+                    <h3>❓ 예약 꼭 해야 해?</h3>
+                    <p>완전 추천! 주말에는 자리가 금방 차니까 미리 전화하는 게 좋아. 번호는 다시 한번 : <a href="tel:01062790862" style="font-weight:bold;">010-6279-0862</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA 섹션 (강력한 행동 유도) -->
+        <div class="cta-block">
+            <h3 style="border-left: none; margin-top:0; padding-left:0;">🔥 지금 바로 특별한 밤을 경험해</h3>
+            <p style="font-size:1.2rem; font-weight:600;">화곡 셔츠룸, 마포 성우이벤트 No.1. 후회 없는 선택은 전화 한 통으로 시작해.</p>
+            <a href="tel:01062790862" class="tel-link" style="font-size:1.8rem; padding:0.8rem 2rem;">010-6279-0862</a>
+            <p style="margin-top:0.5rem;">"형, 오늘 밤은 화곡 셔츠룸이다. 믿고 전화해."</p>
+        </div>
+
+        <!-- 작은 추가 정보 / 블로그 내 관련글 느낌 (동일 디자인) -->
+        <div style="background:#cfc9c0; padding:1rem; border:3px dashed #1a1a1a; margin:2rem 0;">
+            <p style="font-weight:700;">📌 마포 성우이벤트 & 화곡 셔츠룸 관련 인기글</p>
+            <ul style="margin-left:1.5rem;">
+                <li><a href="#">화곡 셔츠룸 VS 마포 다른 셔츠룸 비교 후기</a></li>
+                <li><a href="#">성우이벤트 처음인데 꿀팁 대방출</a></li>
+                <li><a href="#">친구
+</body>
+</html>
