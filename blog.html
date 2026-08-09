@@ -1,278 +1,276 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>화곡 셔츠룸 블로그 | 마포 성우이벤트 찐후기</title>
-    <meta name="description" content="마포 성우이벤트 전문, 화곡 셔츠룸에서 특별한 밤을 경험하세요. 010-6279-0862로 지금 전화주세요. 친근한 분위기, 확실한 서비스.">
-    <meta name="keywords" content="화곡 셔츠룸, 마포 성우이벤트, 화곡 셔츠룸 추천, 마포 셔츠룸, 성우이벤트, 화곡 유흥, 마포 유흥">
-    <link rel="canonical" href="https://sf-t3-1779642675702-044.maphoshirts.com/blog.html">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-raw-concrete">
-    <!-- OG 메타 -->
-    <meta property="og:title" content="화곡 셔츠룸 블로그 | 마포 성우이벤트 찐후기">
-    <meta property="og:description" content="마포 성우이벤트 전문, 화곡 셔츠룸에서 특별한 밤을 경험하세요. 010-6279-0862로 지금 전화주세요. 친근한 분위기, 확실한 서비스.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sf-t3-1779642675702-044.maphoshirts.com/blog.html">
-    <style>
-        /* ===== RESET & BASE ===== */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            scroll-behavior: smooth;
-            font-size: 16px;
-            -webkit-text-size-adjust: 100%;
-        }
-        body {
-            font-family: 'Courier New', Courier, 'Noto Sans KR', monospace;
-            background: #e6e2dd;
-            color: #1a1a1a;
-            line-height: 1.5;
-            padding: 0 1rem;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        /* ===== TYPOGRAPHY ===== */
-        h1, h2, h3, h4 {
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            text-transform: uppercase;
-            border-left: 8px solid #b34a4a;
-            padding-left: 0.75rem;
-            margin: 1.5rem 0 1rem;
-        }
-        h1 {
-            font-size: 2.4rem;
-            line-height: 1.1;
-            border-left-width: 12px;
-        }
-        h2 {
-            font-size: 1.8rem;
-            border-left-width: 10px;
-        }
-        h3 {
-            font-size: 1.4rem;
-            border-left-width: 8px;
-        }
-        p {
-            margin: 1rem 0;
-            font-size: 1rem;
-            word-break: break-word;
-        }
-        a {
-            color: #1a1a1a;
-            text-decoration: underline wavy #b34a4a 2px;
-            transition: all 0.2s ease;
-        }
-        a:hover {
-            background: #b34a4a;
-            color: #f0ede8;
-            text-decoration: none;
-        }
-        /* ===== LAYOUT ===== */
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 1rem 0 3rem;
-            flex: 1;
-        }
-        section {
-            margin: 2rem 0;
-            padding: 1rem 0;
-            border-top: 4px double #1a1a1a;
-        }
-        .grid-2 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.5rem;
-        }
-        .grid-3 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 1.2rem;
-        }
-        /* ===== NAV (present) ===== */
-        nav.nav-present {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1.2rem 0;
-            border-bottom: 4px solid #1a1a1a;
-            margin-bottom: 1rem;
-            background: #e6e2dd;
-        }
-        .nav-present .logo a {
-            font-weight: 900;
-            font-size: 1.7rem;
-            text-decoration: none;
-            border: 3px solid #1a1a1a;
-            padding: 0.2rem 0.8rem;
-            background: #fff;
-            text-transform: uppercase;
-        }
-        .nav-present .logo a:hover {
-            background: #b34a4a;
-            color: #fff;
-        }
-        .nav-links {
-            display: flex;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-        .nav-links a {
-            font-weight: 600;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            padding: 0.2rem 0;
-            font-size: 1.05rem;
-        }
-        .nav-links a:hover {
-            border-bottom-color: #b34a4a;
-            background: transparent;
-            color: #b34a4a;
-        }
-        /* hamburger-menu (모바일 대응) */
-        .hamburger-menu {
-            display: none;
-            background: none;
-            border: 2px solid #1a1a1a;
-            padding: 0.4rem 0.6rem;
-            font-size: 1.8rem;
-            cursor: pointer;
-            line-height: 1;
-        }
-        /* responsive-768 */
-        @media (max-width: 768px) {
-            .hamburger-menu {
-                display: block;
-            }
-            .nav-links {
-                display: none;
-                width: 100%;
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 1rem 0;
-                gap: 0.8rem;
-            }
-            .nav-links.open {
-                display: flex;
-            }
-            .grid-2, .grid-3 {
-                grid-template-columns: 1fr;
-            }
-            h1 { font-size: 1.8rem; }
-            h2 { font-size: 1.5rem; }
-        }
-        /* tel-link */
-        .tel-link {
-            display: inline-block;
-            background: #1a1a1a;
-            color: #f0ede8;
-            padding: 0.5rem 1.2rem;
-            font-weight: 700;
-            font-size: 1.3rem;
-            text-decoration: none;
-            border: 3px solid #1a1a1a;
-            transition: 0.15s;
-            margin: 0.5rem 0;
-        }
-        .tel-link:hover {
-            background: #b34a4a;
-            border-color: #b34a4a;
-            color: #fff;
-            text-decoration: none;
-        }
-        /* 추가 카드/블로그 스타일 (동일 디자인 시스템) */
-        .blog-card {
-            background: #f5f2ed;
-            border: 3px solid #1a1a1a;
-            padding: 1.5rem;
-            margin: 1.5rem 0;
-            box-shadow: 8px 8px 0 #1a1a1a;
-        }
-        .blog-card h3 {
-            border-left-color: #b34a4a;
-            margin-top: 0;
-        }
-        .blog-meta {
-            font-size: 0.9rem;
-            opacity: 0.7;
-            border-bottom: 2px dashed #1a1a1a;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
-        }
-        .cta-block {
-            background: #d6d0c8;
-            padding: 1.5rem;
-            border-left: 12px solid #b34a4a;
-            margin: 2rem 0;
-        }
-        footer {
-            border-top: 4px solid #1a1a1a;
-            padding: 1.5rem 0;
-            margin-top: 2rem;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>화곡 셔츠룸 블로그 | 마포 성우이벤트 찐후기</title>
+ <meta name="description" content="마포 성우이벤트 전문, 화곡 셔츠룸에서 특별한 밤을 경험하세요. 친근한 분위기, 확실한 서비스.">
+ <meta name="keywords" content="화곡 셔츠룸, 마포 성우이벤트, 화곡 셔츠룸 추천, 마포 셔츠룸, 성우이벤트, 화곡 유흥, 마포 유흥">
+ <link rel="canonical" href="https://sf-t3-1779642675702-044.maphoshirts.com/blog.html">
+ <!-- OG 메타 -->
+ <meta property="og:title" content="화곡 셔츠룸 블로그 | 마포 성우이벤트 찐후기">
+ <meta property="og:description" content="마포 성우이벤트 전문, 화곡 셔츠룸에서 특별한 밤을 경험하세요. 친근한 분위기, 확실한 서비스.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://sf-t3-1779642675702-044.maphoshirts.com/blog.html">
+ <style>
+ /* ===== RESET & BASE ===== */
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ scroll-behavior: smooth;
+ font-size: 16px;
+ -webkit-text-size-adjust: 100%;
+ }
+ body {
+ font-family: 'Courier New', Courier, 'Noto Sans KR', monospace;
+ background: #e6e2dd;
+ color: #1a1a1a;
+ line-height: 1.5;
+ padding: 0 1rem;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ }
+ /* ===== TYPOGRAPHY ===== */
+ h1, h2, h3, h4 {
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ text-transform: uppercase;
+ border-left: 8px solid #b34a4a;
+ padding-left: 0.75rem;
+ margin: 1.5rem 0 1rem;
+ }
+ h1 {
+ font-size: 2.4rem;
+ line-height: 1.1;
+ border-left-width: 12px;
+ }
+ h2 {
+ font-size: 1.8rem;
+ border-left-width: 10px;
+ }
+ h3 {
+ font-size: 1.4rem;
+ border-left-width: 8px;
+ }
+ p {
+ margin: 1rem 0;
+ font-size: 1rem;
+ word-break: break-word;
+ }
+ a {
+ color: #1a1a1a;
+ text-decoration: underline wavy #b34a4a 2px;
+ transition: all 0.2s ease;
+ }
+ a:hover {
+ background: #b34a4a;
+ color: #f0ede8;
+ text-decoration: none;
+ }
+ /* ===== LAYOUT ===== */
+ .container {
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 1rem 0 3rem;
+ flex: 1;
+ }
+ section {
+ margin: 2rem 0;
+ padding: 1rem 0;
+ border-top: 4px double #1a1a1a;
+ }
+ .grid-2 {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1.5rem;
+ }
+ .grid-3 {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 1.2rem;
+ }
+ /* ===== NAV (present) ===== */
+ nav.nav-present {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1.2rem 0;
+ border-bottom: 4px solid #1a1a1a;
+ margin-bottom: 1rem;
+ background: #e6e2dd;
+ }
+ .nav-present .logo a {
+ font-weight: 900;
+ font-size: 1.7rem;
+ text-decoration: none;
+ border: 3px solid #1a1a1a;
+ padding: 0.2rem 0.8rem;
+ background: #fff;
+ text-transform: uppercase;
+ }
+ .nav-present .logo a:hover {
+ background: #b34a4a;
+ color: #fff;
+ }
+ .nav-links {
+ display: flex;
+ gap: 1.5rem;
+ flex-wrap: wrap;
+ align-items: center;
+ }
+ .nav-links a {
+ font-weight: 600;
+ text-decoration: none;
+ border-bottom: 2px solid transparent;
+ padding: 0.2rem 0;
+ font-size: 1.05rem;
+ }
+ .nav-links a:hover {
+ border-bottom-color: #b34a4a;
+ background: transparent;
+ color: #b34a4a;
+ }
+ /* hamburger-menu (모바일 대응) */
+ .hamburger-menu {
+ display: none;
+ background: none;
+ border: 2px solid #1a1a1a;
+ padding: 0.4rem 0.6rem;
+ font-size: 1.8rem;
+ cursor: pointer;
+ line-height: 1;
+ }
+ /* responsive-768 */
+ @media (max-width: 768px) {
+ .hamburger-menu {
+ display: block;
+ }
+ .nav-links {
+ display: none;
+ width: 100%;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 1rem 0;
+ gap: 0.8rem;
+ }
+ .nav-links.open {
+ display: flex;
+ }
+ .grid-2, .grid-3 {
+ grid-template-columns: 1fr;
+ }
+ h1 { font-size: 1.8rem; }
+ h2 { font-size: 1.5rem; }
+ }
+ /* tel-link */
+ .tel-link {
+ display: inline-block;
+ background: #1a1a1a;
+ color: #f0ede8;
+ padding: 0.5rem 1.2rem;
+ font-weight: 700;
+ font-size: 1.3rem;
+ text-decoration: none;
+ border: 3px solid #1a1a1a;
+ transition: 0.15s;
+ margin: 0.5rem 0;
+ }
+ .tel-link:hover {
+ background: #b34a4a;
+ border-color: #b34a4a;
+ color: #fff;
+ text-decoration: none;
+ }
+ /* 추가 카드/블로그 스타일 (동일 디자인 시스템) */
+ .blog-card {
+ background: #f5f2ed;
+ border: 3px solid #1a1a1a;
+ padding: 1.5rem;
+ margin: 1.5rem 0;
+ box-shadow: 8px 8px 0 #1a1a1a;
+ }
+ .blog-card h3 {
+ border-left-color: #b34a4a;
+ margin-top: 0;
+ }
+ .blog-meta {
+ font-size: 0.9rem;
+ opacity: 0.7;
+ border-bottom: 2px dashed #1a1a1a;
+ padding-bottom: 0.5rem;
+ margin-bottom: 1rem;
+ }
+ .cta-block {
+ background: #d6d0c8;
+ padding: 1.5rem;
+ border-left: 12px solid #b34a4a;
+ margin: 2rem 0;
+ }
+ footer {
+ border-top: 4px solid #1a1a1a;
+ padding: 1.5rem 0;
+ margin-top: 2rem;
+ text-align: center;
+ font-size: 0.9rem;
+ }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
 
 <main class="container">
-  <p class="nav-links"><span class="nav-present">블로그 안내</span></p>
-  <header class="blog-meta">
-    <p>지역: 화곡(마포 인근), 주제: 셔츠룸 이용 안내</p>
-  </header>
-  <h1>화곡 셔츠룸, 예약 전 확인해야 할 것들</h1>
-  <p>셔츠룸은 지역과 매장에 따라 운영 방식과 이용 조건이 크게 달라지는 업종이다. 이 글은 특정 매장을 추천하거나 평가하지 않고, 예약 전에 공통적으로 확인하면 도움이 되는 항목을 정리한 안내 자료다.</p>
+ <p class="nav-links"><span class="nav-present">블로그 안내</span></p>
+ <header class="blog-meta">
+ <p>지역: 화곡(마포 인근), 주제: 셔츠룸 이용 안내</p>
+ </header>
+ <h1>화곡 셔츠룸, 예약 전 확인해야 할 것들</h1>
+ <p>셔츠룸은 지역과 매장에 따라 운영 방식과 이용 조건이 크게 달라지는 업종이다. 이 글은 특정 매장을 추천하거나 평가하지 않고, 예약 전에 공통적으로 확인하면 도움이 되는 항목을 정리한 안내 자료다.</p>
 
-  <h2>이용 전 체크리스트</h2>
-  <div class="grid-3">
-    <div class="blog-card">
-      <h3>운영 시간</h3>
-      <p>평일과 주말의 운영 시간이 다른 경우가 많아 방문 전 통화로 확인하는 것이 가장 정확하다.</p>
-    </div>
-    <div class="blog-card">
-      <h3>예약 방식</h3>
-      <p>전화 예약이 기본이며, 인원수와 방문 시간대에 따라 가능 여부가 달라질 수 있다.</p>
-    </div>
-    <div class="blog-card">
-      <h3>결제 방식</h3>
-      <p>현금과 카드 결제 가능 여부, 추가 비용 발생 조건은 매장마다 다르므로 예약 시 함께 확인하는 것이 좋다.</p>
-    </div>
-  </div>
+ <h2>이용 전 체크리스트</h2>
+ <div class="grid-3">
+ <div class="blog-card">
+ <h3>운영 시간</h3>
+ <p>평일과 주말의 운영 시간이 다른 경우가 많아 방문 전 통화로 확인하는 것이 가장 정확하다.</p>
+ </div>
+ <div class="blog-card">
+ <h3>예약 방식</h3>
+ <p>전화 예약이 기본이며, 인원수와 방문 시간대에 따라 가능 여부가 달라질 수 있다.</p>
+ </div>
+ <div class="blog-card">
+ <h3>결제 방식</h3>
+ <p>현금과 카드 결제 가능 여부, 추가 비용 발생 조건은 매장마다 다르므로 예약 시 함께 확인하는 것이 좋다.</p>
+ </div>
+ </div>
 
-  <h2>비용 구조를 이루는 요소</h2>
-  <div class="grid-2">
-    <div class="blog-card">
-      <h3>기본 이용료</h3>
-      <p>인원과 이용 시간에 따라 산정되는 기본 항목으로, 매장별 기준이 다르다.</p>
-    </div>
-    <div class="blog-card">
-      <h3>추가 항목</h3>
-      <p>구성 변경이나 연장 시간에 따라 추가 비용이 발생할 수 있어 사전에 항목별 기준을 물어보는 편이 안전하다.</p>
-    </div>
-  </div>
+ <h2>비용 구조를 이루는 요소</h2>
+ <div class="grid-2">
+ <div class="blog-card">
+ <h3>기본 이용료</h3>
+ <p>인원과 이용 시간에 따라 산정되는 기본 항목으로, 매장별 기준이 다르다.</p>
+ </div>
+ <div class="blog-card">
+ <h3>추가 항목</h3>
+ <p>구성 변경이나 연장 시간에 따라 추가 비용이 발생할 수 있어 사전에 항목별 기준을 물어보는 편이 안전하다.</p>
+ </div>
+ </div>
 
-  <h2>용어 정리</h2>
-  <p><strong>셔츠룸</strong>은 룸 형태로 운영되는 업소를 지칭하는 업계 통용 표현이며, 매장마다 운영 방식과 구성에 차이가 있다.</p>
-  <p><strong>세팅비</strong>는 테이블 기본 구성에 포함되는 비용을 뜻하며, 인원 추가 시 별도로 계산되는 경우가 일반적이다.</p>
+ <h2>용어 정리</h2>
+ <p><strong>셔츠룸</strong>은 룸 형태로 운영되는 업소를 지칭하는 업계 통용 표현이며, 매장마다 운영 방식과 구성에 차이가 있다.</p>
+ <p><strong>세팅비</strong>는 테이블 기본 구성에 포함되는 비용을 뜻하며, 인원 추가 시 별도로 계산되는 경우가 일반적이다.</p>
 
-  <h2>자주 묻는 질문</h2>
-  <p><strong>Q. 예약 없이 방문이 가능한가?</strong><br>A. 매장 사정에 따라 다르므로 사전 전화 확인이 권장된다.</p>
-  <p><strong>Q. 인원 변경이 가능한가?</strong><br>A. 방문 직전 변경은 제한될 수 있어 미리 매장에 고지하는 것이 좋다.</p>
+ <h2>자주 묻는 질문</h2>
+ <p><strong>Q. 예약 없이 방문이 가능한가?</strong><br>A. 매장 사정에 따라 다르므로 사전 전화 확인이 권장된다.</p>
+ <p><strong>Q. 인원 변경이 가능한가?</strong><br>A. 방문 직전 변경은 제한될 수 있어 미리 매장에 고지하는 것이 좋다.</p>
 
-  <div class="cta-block">
-    <p>문의 및 예약 확인</p>
-    <a class="tel-link" href="tel:01062790862">01062790862</a>
-  </div>
+ <div class="cta-block">
+ <p>문의 및 예약 확인</p>
+ 
+ </div>
 </main>
 
 
